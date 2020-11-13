@@ -16,6 +16,7 @@ void InsertionSort(int array[],int i)
     int j,key;
     for(i=1;i<5;i++)
     {
+
         key=array[i];
         j=i-1;
         while((array[j]>key) && (j>=0))

@@ -23,8 +23,7 @@ void InsertionSort(int array[],int i)
         {
             array[j+1]=array[j];
             j--;
-        }
-        array[j+1]=key;
+            array[j+1]=key;
     }
     for(i=0;i<5;i++)
     {
